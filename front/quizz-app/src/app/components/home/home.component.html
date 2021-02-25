@@ -1,0 +1,16 @@
+<div class="home-parent">
+  <div class="user-type-tile-container">
+
+    <div [routerLink]="['/student']" (click)="tileClick(STUDENT)" class="user-type-tile">
+      <mat-icon  class="tile-icon h-100 w-100" >school</mat-icon>
+
+    </div>
+
+    <div (click)="tileClick(INSTRUCTOR)" class="user-type-tile ml-1">
+      <mat-icon  class="tile-icon h-100 w-100">local_police</mat-icon>
+
+    </div>
+
+  </div>
+
+</div>

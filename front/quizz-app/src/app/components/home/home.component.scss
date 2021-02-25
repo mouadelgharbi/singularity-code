@@ -1,0 +1,21 @@
+
+.user-type-tile {
+  display: flex;
+  height: 200px;
+  width: 200px;
+  border-radius: 25px;
+  background-color: lightgray;
+  justify-content: center;
+}
+
+.user-type-tile-container {
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.tile-icon {
+  transform: scale(4);
+  position: absolute;
+  top: 21%;
+}
